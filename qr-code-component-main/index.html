@@ -12,14 +12,20 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
     .background-square{
       display: block;
       width: 800px;
       height: 450px;
       background-color: hsl(212, 45%, 89%);
       border: none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    };
       /* box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 40px -7px; */
-    }
+
     .qr-code-background{
       display: block;
       margin: 10px;
@@ -28,14 +34,21 @@
       background-color: red;
       border-radius: 5%;
       border: none;
+      position: static;
+      top: 0;
+        
+      
       /* box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 40px -7px; */
+    }
+    .qr-code-image{
+      
     }
   </style>
 </head>
 <body>
   <div class="background-square"></div>
-  <div class ="qr-code-background">
-
+  <div class ="qr-code-background"></div>
+  <div class="qr-code-image"> <img src="images/image-qr-code.png" alt="qr-code"> </div>
     
 
   </div>
