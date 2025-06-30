@@ -1,73 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Outfit"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-    .background-square{
-      display: block;
-      width: 800px;
-      height: 450px;
-      background-color: hsl(212, 45%, 89%);
-      border: none;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    };
-      /* box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 40px -7px; */
-
-    .qr-code-background{
-      display: block;
-      margin: 10px;
-      width: 250px;
-      height: 350px;
-      background-color: red;
-      border-radius: 5%;
-      border: none;
-      position: static;
-      top: 0;
-        
-      
-      /* box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 40px -7px; */
-    }
-    .qr-code-image{
-      
-    }
-  </style>
-</head>
-<body>
-  <div class="background-square"></div>
-  <div class ="qr-code-background"></div>
-  <div class="qr-code-image"> <img src="images/image-qr-code.png" alt="qr-code"> </div>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
     
+    <title>Frontend Mentor | QR code component</title>
+  </head>
 
-  </div>
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Chiến Vũ</a>.
-  </div>
-</body>
+  <body>
+    <div class="card">
+      <img src="images/image-qr-code.png" alt="Ảnh QR">
+      <h1>
+        Improve your front-end skills by building projects
+      </h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor 
+        and take your coding skills to the next level
+      </p>
+    </div>
+  </body>
 </html>
